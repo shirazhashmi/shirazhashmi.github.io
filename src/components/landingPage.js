@@ -35,10 +35,10 @@ const LandingPage = () =>{
  
             <div className="flex z-10 flex-col justify-center gap-6 text-white mix-blend-difference">
                 <div className="text-5xl">
-                I'm <span className="font-bold">ahmad;</span>  
+                I'm <span className="font-bold">shiraz;</span>  
                 </div>
                 <div className="text-xl">
-                An <span className="font-bold">HTML Programmer;</span> 
+                An <span className="font-bold">Product Speacialist;</span> 
                 </div>
             </div>
         </div>

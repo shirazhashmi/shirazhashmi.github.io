@@ -3,48 +3,36 @@ const Experience  = () =>{
     const experienceColRef = useRef(null)
     const experience = [
         {
-            displayName:"Polygon",
+            displayName:"MixBitx Technologies",
             data:
                 {
-                    header: 'currently',
-                    subHeader: 'January 2022 - Present',
-                    li:'Created new componets using Vuejs <br> Worked with MetaMask wallet, various payment bridges and decentralized technology <br> fixed various bugs'
+                    header: 'Product Manager and Team Lead',
+                    subHeader: 'Currently',
+                    li:'Worked as a web designer and product manager at MixBitx. <br>Collaborated directly with clients to understand their needs and develop effective solutions. <br> Utilized a variety of design and development tools, including Figma, Wix, HTML, CSS, and JavaScript. <br> Managed the product development process from concept to launch, ensuring that projects were delivered on time and to the clients satisfaction. <br> Demonstrated strong communication, collaboration, and problem-solving skills.<br> Contributed to the success of the company by delivering high-quality web designs and product management services.'
                     // text: 'working as a full-stack and  UI UX desingner. mainly working on websocket, payment gateway and prototyping Ui components on figma',
                 }
             
         },
         {
-            displayName:"Afnamd",
+            displayName: 'Kaksha.live',
             data:
                 {
-                    header: 'FullStack Developer',
-                    subHeader: 'July 2021 - January 2022',
-                    li:'Lead development and design team. <br>created a better routing architectural pattern for expressjs. <br>collaborated with people of different disciplines. <br>Gained experience in resolving conflicts with colleagues. <br>Developed Products and provided tech services to several clients. '
-                    // text: 'working as a full-stack and  UI UX desingner. mainly working on websocket, payment gateway and prototyping Ui components on figma',
-                }
-            
-        },
-        {
-            displayName: 'Innovaccer',
-            data:
-                {
-                    header: 'SDE- intern',
-                    subHeader: 'May 2021 - July 2021',
+                    header: 'Product Manager',
+                    subHeader: 'Sep 2021 - Sep 2022',
                     text: '',
-                    li:'Developed code to convert design wireframes into website elements. <br>Used ReactJs framework for front-end development. <br>Gained skills such that understanding a very large codebase and writing production-level code and writing test cases. <br>Gained experience in resolving conflicts with colleagues. <br>Created a proof of concept for generic routing of their react app'
+                    li:'Worked in a startup, creating product prototype and developing the initial idea <br>Built and led various teams to bring the product to market. <br>Successfully launched the product and achieved strong initial traction <br>Demonstrated strong leadership, problem-solving, and project management skills. <br> Contributed to the growth and success of the startup, helping it to secure funding and partnerships. <br> Developed deep knowledge of the market and industry, using this knowledge to drive product development and strategy.'
 
                 }
             
         },
         {
-            displayName: 'yantraksh',
+            displayName: 'Zalphius',
             data: 
                 {
-                    header: 'SDE- intern',
-                    subHeader: 'July 2020 - Augush 2020',
-                    li: 'Created UI components and created test cases<br> build their custom postman like app for their API testing.<br> Gained skill in collaborating with other developers and ReactJs and redux'
+                    header: 'Design Intern',
+                    subHeader: 'Sep 2020 - Dec 2020',
+                    li: 'Developed collateral such as display, marketing and packaging materials to support product branding strategies cases. <br> Designed, coordinated, created and scheduled content and periodic updates to company website.'
                 }
-            
         }
     ]
     const [selected, setSelected] = useState(0)

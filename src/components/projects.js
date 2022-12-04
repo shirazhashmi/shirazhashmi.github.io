@@ -65,12 +65,11 @@ const Projects = () =>{
             ],
         },
         {
-            displayName: 'irouter.js',
-            text: 'irouter.js a tiny, light-weight JavaScript page navigator.',
+            displayName: 'All Terrain Vehicle, QBDC 2020',
+            text: 'Successfully managed a team of engineers in the development of an all-terrain vehicle (ATV)<br>Utilized CAD design and fabrication skills to bring the vehicle to life<br>Acted as the rider of the vehicle in a competitive event, demonstrating its capabilities and durability<br>Demonstrated strong leadership, project management, and technical skills<br>Contributed to the success of the project, resulting in the team achieving a high placement in the competition<br> Developed a deep understanding of ATV design and construction, applying this knowledge to improve the vehicles performance and durability.',
             link:[
                 {
-                    name: 'github',
-                    href: 'https://github.com/alhaqhassan/irouter.js'
+                   //
                 }
             ],
         },

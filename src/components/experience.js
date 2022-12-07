@@ -6,8 +6,8 @@ const Experience  = () =>{
             displayName:"MixBitx Technologies",
             data:
                 {
-                    header: 'Product Manager and Team Lead',
-                    subHeader: 'Currently',
+                    header: 'Product Manager and Client Handling',
+                    subHeader: 'Part Time',
                     li:'Worked as a web designer and product manager at MixBitx. <br>Collaborated directly with clients to understand their needs and develop effective solutions. <br> Utilized a variety of design and development tools, including Figma, Wix, HTML, CSS, and JavaScript. <br> Managed the product development process from concept to launch, ensuring that projects were delivered on time and to the clients satisfaction. <br> Demonstrated strong communication, collaboration, and problem-solving skills.<br> Contributed to the success of the company by delivering high-quality web designs and product management services.'
                     // text: 'working as a full-stack and  UI UX desingner. mainly working on websocket, payment gateway and prototyping Ui components on figma',
                 }
@@ -18,7 +18,7 @@ const Experience  = () =>{
             data:
                 {
                     header: 'Product Manager',
-                    subHeader: 'Sep 2021 - Sep 2022',
+                    subHeader: 'Sep 2021 - Present',
                     text: '',
                     li:'Worked in a startup, creating product prototype and developing the initial idea <br>Built and led various teams to bring the product to market. <br>Successfully launched the product and achieved strong initial traction <br>Demonstrated strong leadership, problem-solving, and project management skills. <br> Contributed to the growth and success of the startup, helping it to secure funding and partnerships. <br> Developed deep knowledge of the market and industry, using this knowledge to drive product development and strategy.'
 

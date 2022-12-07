@@ -38,7 +38,7 @@ const LandingPage = () =>{
                 I'm <span className="font-bold">shiraz;</span>  
                 </div>
                 <div className="text-xl">
-                An <span className="font-bold">Product Speacialist;</span> 
+                A <span className="font-bold">Product Speacialist;</span> 
                 </div>
             </div>
         </div>

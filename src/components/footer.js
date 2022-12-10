@@ -44,7 +44,7 @@ const Footer = () =>{
                             <div>shirazhashmi</div>
                         </div>
                     </a>
-                    <a href="https://www.linkedin.com/in/shirazhashmi">
+                    <a href="https://www.linkedin.com/in/shiraz-s-hashmi/">
                         <div className="flex gap-4 flex-row-reverse">
                             <div>
                             <svg

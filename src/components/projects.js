@@ -2,6 +2,20 @@ import React from 'react'
 import useWindowSize from '../utils/winResize'
 const Projects = () =>{
     const data = [
+           {
+            displayName: 'Expanding Pictures',
+            text: 'As a budding web developer, I was eager to showcase my skills and creativity. So, I created a dynamic photo viewer using HTML, CSS, and JavaScript. The photo viewer expands to reveal a poem, with each verse accompanied by a unique, AI-generated image by Midjourney. This project allowed me to demonstrate my proficiency in front-end development and my ability to integrate AI technology into my work.',
+            link:[
+                {
+                    name: 'github',
+                    href: 'https://github.com/shirazhashmi/Expanding-Picture'
+                },
+                  {
+                    name: 'live',
+                    href: 'https://shirazhashmi.github.io/Expanding-Picture/'
+                }
+            ],
+        },
         {
             displayName: 'Music Player',
             text: 'I developed a music player using NodeJS with the ability to create lists and shuffle tracks. This project allowed me to gain experience with NodeJS and added to my skills in developing useful applications. The music player proved to be a valuable tool for my own personal use and for others.',
@@ -9,7 +23,11 @@ const Projects = () =>{
                 {
                     name: 'github',
                     href: 'https://github.com/shirazhashmi/music-player'
-                }                
+                },
+                  {
+                    name: 'live',
+                    href: 'https://shirazhashmi.github.io/music-player/'
+                }
             ],
         },
         {

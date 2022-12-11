@@ -7,7 +7,7 @@ const Experience  = () =>{
             data:
                 {
                     header: 'Product Manager and Client Handling',
-                    subHeader: 'Part Time',
+                    subHeader: 'As a Freelancer',
                     li:'Worked as a web designer and product manager at MixBitx. <br>Collaborated directly with clients to understand their needs and develop effective solutions. <br> Utilized a variety of design and development tools, including Figma, Wix, HTML, CSS, and JavaScript. <br> Managed the product development process from concept to launch, ensuring that projects were delivered on time and to the clients satisfaction. <br> Demonstrated strong communication, collaboration, and problem-solving skills.<br> Contributed to the success of the company by delivering high-quality web designs and product management services.'
                     // text: 'working as a full-stack and  UI UX desingner. mainly working on websocket, payment gateway and prototyping Ui components on figma',
                 }

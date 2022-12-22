@@ -166,11 +166,11 @@ const Projects = () =>{
     link:[
     {
         name: 'github',
-        href: 'https://github.com/shirazhashmi/Load-Blur_Effect'
+        href: 'https://github.com/shirazhashmi/Load-Blur-Effect'
     },
       {
         name: 'live',
-        href: 'https://shirazhashmi.github.io/Load-Blur_Effect'
+        href: 'https://shirazhashmi.github.io/Load-Blur-Effect'
     }
     ],
     },

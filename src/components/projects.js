@@ -45,70 +45,6 @@ const Projects = () =>{
             ],
         },
         {
-            displayName: 'other mini projects',
-            text: 'Scroll Animation.',
-            link:[
-                {
-                    name: 'github',
-                    href: 'https://github.com/shirazhashmi/Scroll-Animation'
-                },
-                  {
-                    name: 'live',
-                    href: 'https://shirazhashmi.github.io/Scroll-Animation/'
-                }
-            ],
-            text: 'Form Wave Animation.',
-            link:[
-                {
-                    name: 'github',
-                    href: 'https://github.com/shirazhashmi/Form-Wave-Animation'
-                },
-                  {
-                    name: 'live',
-                    href: 'https://shirazhashmi.github.io/Form-Wave-Animation/'
-                }
-            ],
-        },
-        {
-        text: 'Key Codes',
-        link:[
-            {
-                name: 'github',
-                href: 'https://github.com/shirazhashmi/Key-Codes'
-            },
-              {
-                name: 'live',
-                href: 'https://shirazhashmi.github.io/Key-Codes'
-            }
-        ],
-    },
-    {
-    text: 'Hidden Search Widget',
-    link:[
-        {
-            name: 'github',
-            href: 'https://github.com/shirazhashmi/Hidden-Search-Widget'
-        },
-          {
-            name: 'live',
-            href: 'https://shirazhashmi.github.io/Hidden-Search-Widget'
-        }
-    ],
-    },
-    {
-    text: 'Load Blur Effect',
-    link:[
-    {
-        name: 'github',
-        href: 'https://github.com/shirazhashmi/Load-Blur_Effect'
-    },
-      {
-        name: 'live',
-        href: 'https://shirazhashmi.github.io/Load-Blur_Effect'
-    }
-],
-},
-        {
             displayName: 'Rotating Navigation',
             text: 'I created a Rotating Navigation Page project using HTML, CSS, and JavaScript to build a dynamic navigation menu that rotates through a series of links when hovered over.',
             link:[
@@ -174,6 +110,70 @@ const Projects = () =>{
                 }
             ],
         },
+        {
+            
+            text: 'Scroll Animation.',
+            link:[
+                {
+                    name: 'github',
+                    href: 'https://github.com/shirazhashmi/Scroll-Animation'
+                },
+                  {
+                    name: 'live',
+                    href: 'https://shirazhashmi.github.io/Scroll-Animation/'
+                }
+            ],
+            text: 'Form Wave Animation.',
+            link:[
+                {
+                    name: 'github',
+                    href: 'https://github.com/shirazhashmi/Form-Wave-Animation'
+                },
+                  {
+                    name: 'live',
+                    href: 'https://shirazhashmi.github.io/Form-Wave-Animation/'
+                }
+            ],
+        },
+        {
+        text: 'Key Codes',
+        link:[
+            {
+                name: 'github',
+                href: 'https://github.com/shirazhashmi/Key-Codes'
+            },
+              {
+                name: 'live',
+                href: 'https://shirazhashmi.github.io/Key-Codes'
+            }
+        ],
+    },
+    {
+    text: 'Hidden Search Widget',
+    link:[
+        {
+            name: 'github',
+            href: 'https://github.com/shirazhashmi/Hidden-Search-Widget'
+        },
+          {
+            name: 'live',
+            href: 'https://shirazhashmi.github.io/Hidden-Search-Widget'
+        }
+    ],
+    },
+    {
+    text: 'Load Blur Effect',
+    link:[
+    {
+        name: 'github',
+        href: 'https://github.com/shirazhashmi/Load-Blur_Effect'
+    },
+      {
+        name: 'live',
+        href: 'https://shirazhashmi.github.io/Load-Blur_Effect'
+    }
+    ],
+    },
     ]
     let gridCount;    
     const [width] = useWindowSize()

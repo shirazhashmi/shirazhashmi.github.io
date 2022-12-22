@@ -112,17 +112,6 @@ const Projects = () =>{
         },
         {
             
-            text: 'Scroll Animation.',
-            link:[
-                {
-                    name: 'github',
-                    href: 'https://github.com/shirazhashmi/Scroll-Animation'
-                },
-                  {
-                    name: 'live',
-                    href: 'https://shirazhashmi.github.io/Scroll-Animation/'
-                }
-            ],
             text: 'Form Wave Animation.',
             link:[
                 {
@@ -132,6 +121,19 @@ const Projects = () =>{
                   {
                     name: 'live',
                     href: 'https://shirazhashmi.github.io/Form-Wave-Animation/'
+                }
+            ],
+        },
+        {
+            text: 'Scroll Animation.',
+            link:[
+                {
+                    name: 'github',
+                    href: 'https://github.com/shirazhashmi/Scroll-Animation'
+                },
+                  {
+                    name: 'live',
+                    href: 'https://shirazhashmi.github.io/Scroll-Animation/'
                 }
             ],
         },

@@ -17,44 +17,125 @@ const Projects = () =>{
             ],
         },
         {
-            displayName: 'Music Player',
-            text: 'I developed a music player using NodeJS with the ability to create lists and shuffle tracks. This project allowed me to gain experience with NodeJS and added to my skills in developing useful applications. The music player proved to be a valuable tool for my own personal use and for others.',
+            displayName: 'Sound Board',
+            text: 'I completed a project called Sound Board, where I used JavaScript to build a web application that allows users to play and customize a variety of sound effects. I gained experience integrating the HTML5 <audio> tag with JavaScript, allowing me to control the playback of sound files and add dynamic functionality to the application. This project not only enhanced my JavaScript skills, but also introduced me to the capabilities of the <audio> tag and how it can be used to enrich web applications',
             link:[
                 {
                     name: 'github',
-                    href: 'https://github.com/shirazhashmi/music-player'
+                    href: 'https://github.com/shirazhashmi/Sound-Board-Project'
                 },
                   {
                     name: 'live',
-                    href: 'https://shirazhashmi.github.io/music-player/'
+                    href: 'https://shirazhashmi.github.io/Sound-Board-Project/'
+                }
+            ],
+        }, 
+        {
+            displayName: 'Split Landing Page',
+            text: 'I developed a Split Landing Page project using a combination of HTML, CSS, and JavaScript. This project allowed me to showcase my skills in front-end web development and utilize my knowledge of these technologies to create a visually appealing and interactive landing page.',
+             link:[
+                {
+                    name: 'github',
+                    href: 'https://github.com/shirazhashmi/Split-Landing-Page'
+                },
+                  {
+                    name: 'live',
+                    href: 'https://shirazhashmi.github.io/Split-Landing-Page/'
                 }
             ],
         },
         {
-            displayName: 'JSON into CSV converter',
-            text: 'I developed a JSON to CSV converter tool using NodeJS. This tool proved to be a valuable addition to my skill set and allowed me to efficiently convert JSON files into CSV format, saving time and effort.',
+            displayName: 'other mini projects',
+            text: 'Scroll Animation.',
             link:[
                 {
                     name: 'github',
-                    href: 'https://github.com/shirazhashmi/csv-to-json'
+                    href: 'https://github.com/shirazhashmi/Scroll-Animation'
                 },
+                  {
+                    name: 'live',
+                    href: 'https://shirazhashmi.github.io/Scroll-Animation/'
+                }
+            ],
+            text: 'Form Wave Animation.',
+            link:[
                 {
-                    
+                    name: 'github',
+                    href: 'https://github.com/shirazhashmi/Form-Wave-Animation'
+                },
+                  {
+                    name: 'live',
+                    href: 'https://shirazhashmi.github.io/Form-Wave-Animation/'
                 }
             ],
         },
         {
-            displayName: 'Email Automation Tool',
-            text: 'I wrote and deployed an email automation tool using Python. This tool allowed me to send multiple emails with the sender email changing automatically for each email. This proved to be a valuable tool for streamlining my email communication and saved a significant amount of time.',
+        text: 'Key Codes',
+        link:[
+            {
+                name: 'github',
+                href: 'https://github.com/shirazhashmi/Key-Codes'
+            },
+              {
+                name: 'live',
+                href: 'https://shirazhashmi.github.io/Key-Codes'
+            }
+        ],
+    },
+    {
+    text: 'Hidden Search Widget',
+    link:[
+        {
+            name: 'github',
+            href: 'https://github.com/shirazhashmi/Hidden-Search-Widget'
+        },
+          {
+            name: 'live',
+            href: 'https://shirazhashmi.github.io/Hidden-Search-Widget'
+        }
+    ],
+    },
+    {
+    text: 'Load Blur Effect',
+    link:[
+    {
+        name: 'github',
+        href: 'https://github.com/shirazhashmi/Load-Blur_Effect'
+    },
+      {
+        name: 'live',
+        href: 'https://shirazhashmi.github.io/Load-Blur_Effect'
+    }
+],
+},
+        {
+            displayName: 'Rotating Navigation',
+            text: 'I created a Rotating Navigation Page project using HTML, CSS, and JavaScript to build a dynamic navigation menu that rotates through a series of links when hovered over.',
             link:[
                 {
                     name: 'github',
-                    href: 'https://github.com/shirazhashmi/email-automation'
+                    href: 'https://github.com/shirazhashmi/Rotating-Navigation'
                 },
-                {
-                   
+                  {
+                    name: 'live',
+                    href: 'https://shirazhashmi.github.io/Rotating-Navigation/'
                 }
             ],
+        },
+            {
+        displayName: 'Dad-Jokes',
+        text:'I recently completed a project called Dad Jokes, where I utilized JavaScript to build a web application that displays and generates humorous "dad jokes." In the process, I gained experience integrating APIs with JavaScript, allowing me to seamlessly retrieve and display the jokes from a third-party database. This project not only allowed me to improve my JavaScript skills, but also taught me the value of using APIs to enhance the functionality of my web applications.',
+        link:[
+            {
+                name: 'github',
+                href:  'https://github.com/shirazhashmi/Dad-Jokes'
+            },
+            {
+                name: 'live',
+                href: 'https://shirazhashmi.github.io/Dad-Jokes/' 
+            }
+            
+        ],
         },
         {
             displayName: 'Solar Powered Fertilizer Applicator',

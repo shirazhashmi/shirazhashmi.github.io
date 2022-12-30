@@ -176,6 +176,32 @@ const Projects = () =>{
     }
     ],
     },
+    {
+    text: 'FAQ Boxes',
+    link:[
+    {
+        name: 'github',
+        href: 'https://github.com/shirazhashmi/FAQ-boxes'
+    },
+      {
+        name: 'live',
+        href: 'https://shirazhashmi.github.io/FAQ-boxes'
+    }
+    ],
+    },
+    {
+    text: 'Random Choice Picker',
+    link:[
+    {
+        name: 'github',
+        href: 'https://github.com/shirazhashmi/Random-Choise-Picker'
+    },
+      {
+        name: 'live',
+        href: 'https://shirazhashmi.github.io/Random-Choise-Picker'
+    }
+    ],
+    },
     ]
     let gridCount;    
     const [width] = useWindowSize()

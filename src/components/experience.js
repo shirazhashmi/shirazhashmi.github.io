@@ -8,6 +8,16 @@ const Experience  = () =>{
                 {
                     header: 'Co-Founder & CEO',
                     subHeader: 'March 2023 - Present',
+                    text: '',
+                    li:'Leading Kaksha Live Passionately with a vision and mission to achieve.'
+
+                }
+            
+        },
+        {
+            displayName: 'Kaksha.live',
+            data:
+                {
                     header: 'Founding Member & Product Manager',
                     subHeader: 'Sep 2021 - March 2023',
                     text: '',

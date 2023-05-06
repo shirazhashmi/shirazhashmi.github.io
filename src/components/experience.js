@@ -7,7 +7,9 @@ const Experience  = () =>{
             data:
                 {
                     header: 'Co-Founder & CEO',
-                    subHeader: 'Sep 2021 - Present',
+                    subHeader: 'March 2023 - Present',
+                    header: 'Founding Member & Product Manager',
+                    subHeader: 'Sep 2021 - March 2023',
                     text: '',
                     li:'Worked in a startup, creating product prototype and developing the initial idea <br>Built and led various teams to bring the product to market. <br>Successfully launched the product and achieved strong initial traction <br>Demonstrated strong leadership, problem-solving, and project management skills. <br> Contributed to the growth and success of the startup, helping it to secure funding and partnerships. <br> Developed deep knowledge of the market and industry, using this knowledge to drive product development and strategy.'
 

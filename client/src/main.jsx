@@ -197,7 +197,7 @@ function App() {
 
       <main id="top">
         <section className="hero section-pad">
-          <div className="hero-kicker"><span className="live-dot" /> AI PRODUCT MANAGER · PRODUCT BUILDER</div>
+
           <div className="hero-grid">
             <h1>I build products<br />that survive<br /><em>real life.</em></h1>
             <div className="hero-side">

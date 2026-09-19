@@ -63,7 +63,6 @@ const experience = [
 ]
 
 const engineering = [
-  ['OPERO BMS', 'Business operations system'],
   ['Formula Bharat 2021', 'Electric Formula Student vehicle'],
   ['Quad Bike Design Challenge', 'Design, build and competition'],
   ['Solar Fertilizer Applicator', 'Small-farm engineering project'],
@@ -200,11 +199,18 @@ function App() {
         <section className="hero section-pad">
           <div className="hero-kicker"><span className="live-dot" /> AI PRODUCT MANAGER · PRODUCT BUILDER</div>
           <div className="hero-grid">
-            <h1>I build products<br />from <em>problem</em><br />to adoption.</h1>
+            <h1>I build products<br />that survive<br /><em>real life.</em></h1>
             <div className="hero-side">
-              <p className="hero-lede">I work across product, business and technology to turn messy real-world problems into useful software.</p>
-              <div className="hero-actions"><button className="primary-btn" onClick={() => scrollTo('work')}>Explore work <Arrow /></button><a className="text-btn" href="/resume.html" target="_blank" rel="noreferrer">View resume <Arrow /></a></div>
+              <p className="hero-lede">Product is not the pitch. It is what happens when real people start using the thing.</p>
+              <div className="hero-actions"><button className="primary-btn" onClick={() => scrollTo('work')}>See what I’ve built <Arrow /></button><a className="text-btn" href="/resume.html" target="_blank" rel="noreferrer">View resume <Arrow /></a></div>
               <div className="hero-meta"><span>New Delhi · India</span><span className="meta-divider" /><span>AI · SaaS · EdTech</span></div>
+              <div className="hero-system" aria-label="Product build loop">
+                <div className="hero-system-top"><span>BUILD / 01</span><span>LIVE</span></div>
+                <div className="hero-system-row"><span>01</span><strong>Problem</strong><small>find the friction</small><b>→</b></div>
+                <div className="hero-system-row"><span>02</span><strong>Product</strong><small>ship the smallest system</small><b>→</b></div>
+                <div className="hero-system-row"><span>03</span><strong>Adoption</strong><small>watch what people do</small><b>↗</b></div>
+                <div className="hero-system-foot"><span>AI / SaaS / EDTECH</span><span>ITERATE ↻</span></div>
+              </div>
             </div>
           </div>
           <div className="hero-line"><span>01 / 06</span><span>PRODUCT · SYSTEMS · EXECUTION</span><span>SCROLL TO EXPLORE ↓</span></div>
@@ -249,8 +255,8 @@ function App() {
         </section>
 
         <section className="section-pad section-block engineering-block">
-          <div className="section-head"><div><span className="eyebrow">05 · ENGINEERING</span><h2>Before software, I built machines.</h2></div><p>Mechanical engineering shaped how I think about constraints, interfaces, trade-offs and systems.</p></div>
-          <div className="engineering-grid"><div className="engineering-projects">{engineering.map(([name, desc], i) => <div className="engineering-row" key={name}><span>0{i + 1}</span><div><strong>{name}</strong><small>{desc}</small></div><Arrow /></div>)}</div><div className="credential-card"><span className="eyebrow">EDUCATION</span><h3>Jamia Millia Islamia</h3><p>B.Tech, Mechanical Engineering</p><strong>2018 → 2022</strong><div className="credential-detail">First Division with Distinction<br />8.7 SPI</div></div></div>
+          <div className="section-head"><div><span className="eyebrow">05 · ENGINEERING</span><h2>The engineering years still show up.</h2></div><p>Constraints, interfaces, trade-offs. Turns out software has plenty of those too.</p></div>
+          <div className="engineering-projects">{engineering.map(([name, desc], i) => <div className="engineering-row" key={name}><span>0{i + 1}</span><div><strong>{name}</strong><small>{desc}</small></div><Arrow /></div>)}</div>
         </section>
 
         <section className="section-pad section-block publications-block">

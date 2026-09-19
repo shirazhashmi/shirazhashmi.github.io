@@ -202,8 +202,7 @@ function App() {
             <h1>I build products<br />that survive<br /><em>real life.</em></h1>
             <div className="hero-side">
               <p className="hero-lede">Product is not the pitch. It is what happens when real people start using the thing.</p>
-              <div className="hero-actions"><button className="primary-btn" onClick={() => scrollTo('work')}>See what I’ve built <Arrow /></button><a className="text-btn" href="/resume.html" target="_blank" rel="noreferrer">View resume <Arrow /></a></div>
-              <div className="hero-meta"><span>New Delhi · India</span><span className="meta-divider" /><span>AI · SaaS · EdTech</span></div>
+<div className="hero-actions"><button className="primary-btn" onClick={() => scrollTo('work')}>See what I’ve built <Arrow /></button><a className="text-btn" href="/resume.pdf" download>Download resume <Arrow /></a></div>              <div className="hero-meta"><span>New Delhi · India</span><span className="meta-divider" /><span>AI · SaaS · EdTech</span></div>
               <div className="hero-system" aria-label="Product build loop">
                 <div className="hero-system-top"><span>BUILD / 01</span><span>LIVE</span></div>
                 <div className="hero-system-row"><span>01</span><strong>Problem</strong><small>find the friction</small><b>→</b></div>

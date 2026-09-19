@@ -35,12 +35,12 @@ const products = [
   },
   {
     index: '04',
-    name: 'TalkFlow AI',
+    name: 'TalkFlow AI | AI-Powered Outbound Calling',
     type: 'AI voice workflows',
     domain: 'talkflow-ai-five.vercel.app',
     url: 'https://talkflow-ai-five.vercel.app/',
     links: [['Visit product', 'https://talkflow-ai-five.vercel.app/']],
-    description: 'Configurable AI voice workflow for lead calling, outcome capture and next-action distribution across teams.',
+    description: 'AI-powered outbound calling and lead qualification for modern sales teams.',
     tags: ['Voice AI', 'Leads', 'Automation']
   },
   {

@@ -129,11 +129,11 @@ function ProductCard({ product }) {
 
   useEffect(() => {
     let alive = true
-    fetch(`/api/metadata?url=${encodeURIComponent(product.url)}`)
+    fetch(`https://api.microlink.io/?url=${encodeURIComponent(product.url)}&meta=true`)
       .then((r) => r.ok ? r.json() : null)
       .then((data) => {
-        if (!alive || !data) return
-        setMeta(data)
+        if (!alive || !data?.data) return
+        setMeta(data.data)
       })
       .catch(() => {})
     return () => { alive = false }
@@ -143,7 +143,7 @@ function ProductCard({ product }) {
     <article className="product-card">
       <div className="product-card-head">
         <div className="product-brand">
-          <img className="product-logo" src={meta?.logo || favicon} alt="" loading="lazy" />
+          <img className="product-logo" src={meta?.logo?.url || meta?.publisher?.logo?.url || favicon} alt="" loading="lazy" />
           <div>
             <span className="product-domain">{meta?.url ? new URL(meta.url).hostname.replace(/^www\./, '') : product.domain}</span>
             <span className="product-type">{product.type}</span>

@@ -97,7 +97,7 @@ const education = [
   {
     num: '03',
     institution: 'Resonance Eduventures Limited',
-    course: 'JEE Mains + Advanced Preparation · Physics, Chemistry, Mathematics',
+    course: 'JEE Mains + Advanced Preparation',
     period: '2015 → 2017',
     location: 'Kota, Rajasthan',
     logo: 'https://www.google.com/s2/favicons?domain=resonance.ac.in&sz=128',

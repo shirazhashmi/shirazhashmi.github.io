@@ -296,7 +296,7 @@ function App() {
       </a>
       <header className="nav-wrap">
         <a className="identity" href="#top" onClick={() => setMenuOpen(false)}>
-          <span className="identity-mark">ssh.</span>
+          <span className="identity-photo photo-frame"><img src="/profile.png" alt="" /></span>
           <span>Shiraz Sajid Hashmi</span>
         </a>
         <button
@@ -362,7 +362,7 @@ function App() {
             </div>
             <div className="hero-side">
               <figure className="portrait">
-                <img src="/profile.png" alt="Shiraz Sajid Hashmi" />
+                <span className="portrait-photo photo-frame"><img src="/profile.png" alt="Shiraz Sajid Hashmi" /></span>
                 <figcaption>Product / Systems / Execution</figcaption>
               </figure>
               <p className="hero-lede">

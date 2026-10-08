@@ -13,8 +13,6 @@ const products = [
       "From a student’s question to a step-by-step video explanation.",
     body: "An AI-powered learning product built around how students ask for help. I led product development, bringing school workflow knowledge into AI learning and experimentation.",
     scope: "Product strategy / AI workflows / Learning",
-    visual: "question",
-    detail: "Student question → Step-by-step explanation → Video learning",
   },
   {
     index: "02",
@@ -25,8 +23,6 @@ const products = [
     description: "Recurring business workflows. One operating layer.",
     body: "Built to bring CRM, HR, finance, attendance, communication and workflow management together. A reusable system for the operational work that keeps a business moving.",
     scope: "CRM / Operations / SaaS",
-    visual: "operations",
-    detail: "CRM / HR / Finance / Attendance / Communication / Workflows",
   },
   {
     index: "03",
@@ -41,8 +37,6 @@ const products = [
     description: "The daily life of a school, connected.",
     body: "School administration and learning platforms connecting administrators, teachers, students and parents. Built from 0 to 1 across academics, attendance, payments and communication, with RFID, biometric, GPS and messaging integrations.",
     scope: "0-to-1 / ERP & LMS / EdTech",
-    visual: "school",
-    detail: "Administrators / Teachers / Students / Parents",
   },
 ];
 
@@ -98,24 +92,6 @@ const experience = [
     company: "Kaksha.Live",
     role: "Product Manager & Co-Founder",
     body: "Owned product direction and execution across ERP, LMS and AI learning systems, from customer discovery and workflow design through deployment, adoption and iteration.",
-  },
-  {
-    period: "Dec 2024 → Mar 2025",
-    company: "Digitaleon",
-    role: "Growth Lead",
-    body: "Worked across growth initiatives, customer-facing execution and business development in a digital product environment.",
-  },
-  {
-    period: "Sep 2024 → Dec 2024",
-    company: "Amitoje India",
-    role: "Brand Consultant · Sr. Project Owner",
-    body: "Managed end-to-end execution of branding and retail activation projects, combining project ownership with customer and brand experience work.",
-  },
-  {
-    period: "Sep 2020 → Dec 2020",
-    company: "Zalphius",
-    role: "Head of Design · Internship",
-    body: "Worked across design execution and product-facing visual systems while building early experience in collaborative delivery.",
   },
 ];
 
@@ -192,87 +168,26 @@ function Arrow() {
 
 function ProductStudy({ product }) {
   return (
-    <article className={`product-study ${product.visual}`}>
-      <div className="study-caption">
-        <span>
-          {product.index} / {product.type}
-        </span>
-        <span>{product.scope}</span>
+    <article className="product-study">
+      <span className="product-number">{product.index}</span>
+      <div className="product-title">
+        <span className="eyebrow">{product.type}</span>
+        <h3>{product.name}</h3>
       </div>
-      <div className="study-grid">
-        <div className="study-copy">
-          <h3>{product.name}</h3>
-          <p className="study-deck">{product.description}</p>
+      <div className="product-summary">
+        <p>{product.description}</p>
+        <details className="product-details">
+          <summary>Product notes</summary>
           <p>{product.body}</p>
-          <div className="product-links">
-            {product.links.map(([label, url]) => (
-              <a key={label} href={url} target="_blank" rel="noreferrer">
-                {label} <Arrow />
-              </a>
-            ))}
-          </div>
-        </div>
-        <div
-          className={`study-visual visual-${product.visual}`}
-          aria-label={`${product.name} workflow illustration`}
-        >
-          <span className="visual-label">{product.type} / System map</span>
-          {product.visual === "question" && (
-            <>
-              <div className="question-line">
-                A question
-                <br />
-                <em>worth answering.</em>
-              </div>
-              <div className="learning-flow">
-                <span>01 Understand</span>
-                <span>02 Explain</span>
-                <span>03 Visualise</span>
-              </div>
-            </>
-          )}
-          {product.visual === "operations" && (
-            <>
-              <div className="ops-title">
-                The work
-                <br />
-                behind the work.
-              </div>
-              <div className="ops-grid">
-                {[
-                  "CRM",
-                  "HR",
-                  "Finance",
-                  "Attendance",
-                  "Communication",
-                  "Workflows",
-                ].map((x, i) => (
-                  <span key={x}>
-                    <small>0{i + 1}</small>
-                    {x}
-                  </span>
-                ))}
-              </div>
-            </>
-          )}
-          {product.visual === "school" && (
-            <>
-              <div className="school-title">
-                One school.
-                <br />
-                <em>Many moving parts.</em>
-              </div>
-              <div className="school-flow">
-                {["Administrators", "Teachers", "Students", "Parents"].map(
-                  (x) => (
-                    <span key={x}>{x}</span>
-                  ),
-                )}
-              </div>
-            </>
-          )}
-          <span className="visual-foot">{product.detail}</span>
-        </div>
+          <span>{product.scope}</span>
+        </details>
+      </div>
+      <div className="product-links">
+        {product.links.map(([label, url]) => (
+          <a key={label} href={url} target="_blank" rel="noreferrer">
+            {label} <Arrow />
+          </a>
+        ))}
       </div>
     </article>
   );
@@ -296,7 +211,9 @@ function App() {
       </a>
       <header className="nav-wrap">
         <a className="identity" href="#top" onClick={() => setMenuOpen(false)}>
-          <span className="identity-photo photo-frame"><img src="/profile.png" alt="" /></span>
+          <span className="identity-photo photo-frame">
+            <img src="/profile.png" alt="" />
+          </span>
           <span>Shiraz Sajid Hashmi</span>
         </a>
         <button
@@ -362,7 +279,9 @@ function App() {
             </div>
             <div className="hero-side">
               <figure className="portrait">
-                <span className="portrait-photo photo-frame"><img src="/profile.png" alt="Shiraz Sajid Hashmi" /></span>
+                <span className="portrait-photo photo-frame">
+                  <img src="/profile.png" alt="Shiraz Sajid Hashmi" />
+                </span>
                 <figcaption>Product / Systems / Execution</figcaption>
               </figure>
               <p className="hero-lede">
@@ -420,11 +339,7 @@ function App() {
           <div className="section-head">
             <div>
               <span className="eyebrow">01 / SELECTED PRODUCTS</span>
-              <h2>
-                Built for
-                <br />
-                <em>the everyday.</em>
-              </h2>
+              <h2>Products</h2>
             </div>
             <p>
               Education and business operations. Complex workflows translated
@@ -445,11 +360,7 @@ function App() {
           <div className="section-head">
             <div>
               <span className="eyebrow">02 / SIDE BUILDS</span>
-              <h2>
-                Room to
-                <br />
-                <em>experiment.</em>
-              </h2>
+              <h2>Side Builds</h2>
             </div>
             <p>
               Small products, explorations and problems I decided were worth
@@ -487,11 +398,7 @@ function App() {
           <div className="section-head">
             <div>
               <span className="eyebrow">03 / CAREER</span>
-              <h2>
-                Ownership,
-                <br />
-                <em>end to end.</em>
-              </h2>
+              <h2>Career</h2>
             </div>
             <p>
               AI Product Manager | SaaS | 0-to-1 Product Development. Over four
@@ -544,11 +451,7 @@ function App() {
           <div className="section-head">
             <div>
               <span className="eyebrow">04 / CAPABILITIES</span>
-              <h2>
-                Across the
-                <br />
-                <em>product system.</em>
-              </h2>
+              <h2>Skills & tools</h2>
             </div>
             <p>
               From the problem and the business case to the workflow, the
@@ -569,7 +472,7 @@ function App() {
           <div className="section-head">
             <div>
               <span className="eyebrow">05 / EDUCATION</span>
-              <h2>Where I learned to build.</h2>
+              <h2>Education</h2>
             </div>
             <p>
               A progression from school and competitive engineering preparation
@@ -616,11 +519,7 @@ function App() {
           <div className="section-head">
             <div>
               <span className="eyebrow">06 / APPROACH</span>
-              <h2>
-                Less theatre.
-                <br />
-                <em>More product.</em>
-              </h2>
+              <h2>How I work</h2>
             </div>
             <p>
               I like product work close to the ground: talk to users, define the
@@ -674,7 +573,7 @@ function App() {
           <div className="section-head">
             <div>
               <span className="eyebrow">07 / ENGINEERING</span>
-              <h2>The engineering years still show up.</h2>
+              <h2>Engineering projects</h2>
             </div>
             <p>
               Constraints, interfaces, trade-offs. Turns out software has plenty
@@ -699,7 +598,7 @@ function App() {
           <div className="section-head">
             <div>
               <span className="eyebrow">08 / PUBLICATIONS</span>
-              <h2>Research, on paper.</h2>
+              <h2>Publications</h2>
             </div>
             <p>
               Three engineering publications from the transition into electric

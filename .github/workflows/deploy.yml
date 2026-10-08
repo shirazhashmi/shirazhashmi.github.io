@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 
@@ -47,6 +48,23 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: ./client/dist
+
+      - name: Wait for Pages artifact availability
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for attempt in {1..12}; do
+            count=$(gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts" --jq '[.artifacts[] | select(.name == "github-pages" and .expired == false)] | length')
+            if [ "$count" -gt 0 ]; then
+              echo "Pages artifact is available."
+              # Allow Pages deployment metadata to catch up with the artifact API.
+              sleep 15
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "Pages artifact did not become available." >&2
+          exit 1
 
       - name: Deploy to GitHub Pages
         id: deployment

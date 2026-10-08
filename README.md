@@ -1,42 +1,33 @@
 # Shiraz Sajid Hashmi Portfolio
 
-A recruiter-focused personal portfolio for Shiraz Sajid Hashmi, designed around AI product management, product building, SaaS, and engineering.
+An editorial portfolio for AI product management, SaaS and 0-to-1 product development. Built with React, Vite and custom CSS, with DM Sans and Instrument Serif typography.
 
-## Stack
+## Local development
 
-- Frontend: React + Vite
-- Backend: Express
-- Styling: custom CSS, no UI framework
-- Fonts: Inter + Space Grotesk via Google Fonts
-
-## Run locally
-
-```bash
-cd shiraz-sajid-hashmi-portfolio
-npm install
-npm run install:all
+```sh
+npm ci
 npm run dev
 ```
 
-Open http://localhost:5173
+Frontend: http://localhost:5173. Optional Express API: http://localhost:4000. The portfolio itself works as a static site without the API or third-party project metadata services.
 
-The API runs on http://localhost:4000.
+## Build and preview
 
-## Production build
-
-```bash
+```sh
 npm run build
-npm start
+npm run preview --workspace=client
 ```
 
-The Express server serves the built frontend from `client/dist` and exposes `/api/health` and `/api/profile`.
+`npm start` serves the build through Express. There are no lint or test scripts configured. Verification covers the production build, browser navigation, responsive layouts, resume download and content checks.
 
-## Contact configuration
+## Content
 
-The portfolio uses:
+- Selected Products: Kaksha AI, Opero BMS, Kaksha Live ERP/LMS.
+- Side Builds: Wanderloop, Recovery App and PDF Two-Up. Wanderloop links to its prototype repository because no public deployment is listed there.
+- Career, capabilities and Jamia education use the supplied 2026 resume. Other existing experience, education, engineering, publications, approach and writing content is retained.
+- `client/public/resume.pdf` is the supplied resume, including its phone number as requested. Visible website contact uses email, LinkedIn and GitHub.
+- Product covers are custom workflow illustrations, not product screenshots.
 
-- Email: shirazhashmi@live.com
-- LinkedIn: https://www.linkedin.com/in/shiraz-hashmi/
-- GitHub: https://github.com/shirazhashmi/
+## Publishing
 
-No phone number or WhatsApp link is included.
+The existing GitHub Pages workflow publishes `client/dist` on pushes to `main`. A local commit does not publish the site. Only push when publication is intended.

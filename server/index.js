@@ -79,7 +79,7 @@ app.get('/api/metadata', async (req, res) => {
 app.get('/api/profile', (_req, res) => {
   res.json({
     name: 'Shiraz Sajid Hashmi',
-    role: 'AI Product Manager · Product Builder',
+    role: 'AI Product Manager | SaaS | 0-to-1 Product Development',
     email: 'shirazhashmi@live.com',
     linkedin: 'https://www.linkedin.com/in/shiraz-hashmi/',
     github: 'https://github.com/shirazhashmi/'

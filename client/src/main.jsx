@@ -42,12 +42,12 @@ const products = [
 
 const sideBuilds = [
   {
-    name: "Wanderloop",
-    type: "Hotel metasearch prototype",
+    name: "If Systems Worked",
+    type: "Civic data / Public record",
     description:
-      "A hotel comparison exploration with multiple booking providers, native offers, price freshness, Price Guard and verified guest ratings. Designed for clearer offer comparison.",
-    url: "https://github.com/shirazhashmi/wanderloop-listing",
-    label: "Explore the prototype source",
+      "A sourced record of reported deaths across India where failures in public systems may have contributed. Map and calendar views connect reported incidents with their sources and context.",
+    url: "https://ifsystemsworked.world/",
+    label: "Explore If Systems Worked",
   },
   {
     name: "Recovery App",

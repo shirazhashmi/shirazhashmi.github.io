@@ -23,7 +23,7 @@ npm run preview --workspace=client
 ## Content
 
 - Selected Products: Kaksha AI, Opero BMS, Kaksha Live ERP/LMS.
-- Side Builds: Wanderloop, Recovery App and PDF Two-Up. Wanderloop links to its prototype repository because no public deployment is listed there.
+- Side Builds: If Systems Worked, Recovery App and PDF Two-Up.
 - Career, capabilities and Jamia education use the supplied 2026 resume. Career shows Kaksha.Live only; other education, engineering, publications, approach and writing content is retained.
 - `client/public/resume.pdf` is the supplied resume, including its phone number as requested. Visible website contact uses email, LinkedIn and GitHub.
 - Products share a compact index with expandable notes, keeping all three visible together on desktop.

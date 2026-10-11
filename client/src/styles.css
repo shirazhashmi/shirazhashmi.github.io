@@ -1481,3 +1481,13 @@ footer>span:last-child{
   .education-entry h4{font-size:16px;margin-top:8px}
   .education-activities{font-size:11px;line-height:1.65;margin-top:12px}
 }
+
+/* Browse selected products horizontally on larger screens too. */
+@media(min-width:601px){
+  #work .swipe-controls{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:0 0 18px;color:var(--accent);font-size:12px}
+  #work .swipe-controls>div{display:flex;gap:8px}
+  #work .swipe-controls button{width:42px;min-height:42px;border:1px solid var(--accent-border);border-radius:50%;background:white;color:var(--accent);font-size:20px;cursor:pointer}
+  #work .swipe-controls button:hover{background:var(--accent-soft)}
+  .product-studies.swipe-rail{display:grid;grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:calc(100% - 24px);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;align-items:stretch;padding-bottom:12px;scrollbar-width:thin;scrollbar-color:var(--accent-border) transparent}
+  .product-studies.swipe-rail>.product-study{scroll-snap-align:start;min-width:0}
+}

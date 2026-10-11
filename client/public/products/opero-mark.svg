@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Opero mark">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#73e9c5"/><stop offset="1" stop-color="#18a68d"/></linearGradient></defs>
+  <rect width="128" height="128" rx="36" fill="#092d2a"/>
+  <circle cx="64" cy="64" r="35" fill="none" stroke="url(#g)" stroke-width="17" stroke-linecap="round" stroke-dasharray="188 32" transform="rotate(-36 64 64)"/>
+  <circle cx="64" cy="64" r="12" fill="#f4f1e8"/>
+  <circle cx="101" cy="28" r="5" fill="#c5f5db"/>
+</svg>
